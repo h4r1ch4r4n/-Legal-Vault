@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Record Vault</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Legal Record Vault</h1>
+    <div id="form">
+        <div class="form-control">
+            <label for="recordHash">Enter Record Hash (IPFS):</label>
+            <input type="text" id="recordHash" placeholder="IPFS Hash">
+        </div>
+        <button onclick="addRecord()">Add Record</button>
+    </div>
+    <h2>Stored Records</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Hash</th>
+                <th>Owner</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody id="recordTable"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
