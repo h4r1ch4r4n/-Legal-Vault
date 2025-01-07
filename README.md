@@ -30,8 +30,6 @@ A cutting-edge solution to securely store and manage legal records for stakehold
 ---
 
 ## 📌 Architecture Overview
-![Project Overview Placeholder](placeholder-overview-image.png)
-
 ### Detailed Architecture:
 1. **Users**: Lawyers, Judges, Clients interact with the system.
 2. **MetaMask**: Manages blockchain connections.
