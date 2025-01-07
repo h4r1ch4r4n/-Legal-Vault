@@ -37,7 +37,7 @@ A cutting-edge solution to securely store and manage legal records for stakehold
 4. **Ethereum Blockchain**: Immutable record storage via smart contracts.
 5. **Smart Contracts**: Written in Solidity to enforce logic.
 
-![Architecture Diagram Placeholder](placeholder-architecture-image.png)
+![Architecture Diagram ](assets/img/legal_vault.png)
 
 ---
 
